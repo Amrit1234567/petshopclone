@@ -1,0 +1,203 @@
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+body{
+    margin: 0px;
+}
+.header{
+    background-color: #FFA100;
+    height: 72px;
+    padding: 0px 180px;
+}
+.header .logo{
+    float: left;
+}
+.header ul{
+    float: left;
+    margin: 0px;
+    list-style-type: none;
+    position: relative;
+    top: 35px;
+    left: -40px;
+}
+.header ul li{
+    float: left;
+    padding: 10px 19px;
+    border-right: 1px solid #FFD060;
+}
+.header ul li.active{
+    background: url("../images/menu.gif");
+    background-repeat: no-repeat;
+    background-position: 0 -158px;
+}
+.header ul li a{
+    text-decoration: none;
+    color: black;
+}
+.firstrow img{
+    object-fit: cover;
+}
+.secondrow{
+    padding: 0px 170px 0 170px;
+}
+.secondrow ul{
+    list-style-type: none;
+    width: 640px;
+    float: left;
+
+}
+.secondrow ul li{
+    float: left;
+    width: 300px;
+    text-align: justify;
+    margin-right: 20px;
+}
+.secondrow ul li h2{
+    margin-bottom: 0px;
+}
+.secondrow ul li p{
+    margin-top: 0px;
+}
+.secondrow ul li a{
+    float: left;
+}
+.secondrow ul li p{
+    color: #7F7154;
+}
+.secondrow .box{
+    float: right;
+    width: 243px;
+}
+.secondrow .box .search{
+    background-color: #FFAC00;
+    padding: 8px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.secondrow .box .search input{
+    width: 160px;
+    padding: 5px 0;
+    border-radius: 2px;
+    margin-right: 5px;
+    border: 0px;
+    color: #94719C;
+    box-shadow: inset 10px 10px 10px rgba(0, 0, 0, 0.071);
+}
+.secondrow .box .search button{
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    padding: 5px 10px;
+}
+.secondrow .box .search label input{
+    width: 10px;
+    margin-top: 10px;
+}
+.secondrow .box .search label{
+    font-size: 12px;
+}
+.secondrow .box .section{
+    width: 100%;
+}
+.secondrow .box .section .navigation ul{
+    width: 100%;
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+}
+.secondrow .box .section .navigation ul li{
+    width: 121px;
+    margin-right: 0px;
+    background-color: #FFA100;
+    padding: 10px;
+    box-sizing: border-box;
+    text-align: center;
+}
+.secondrow .box .section .navigation ul li.active{
+    background-color: #FFDB90;
+}
+.secondrow .box .section .navigation ul li a{
+    text-decoration: none;
+    color: black;
+}
+.secondrow .box .section > ul{
+    background-color: #FFDB90;
+    width: 100%;
+    margin: 0;
+    box-sizing: border-box;
+    padding: 10px 10px 8px;
+}
+.secondrow .box .section > ul li{
+    text-decoration: none;
+    padding: 2px;
+    border-radius: 5px;
+    box-sizing: border-box;
+    width: 100%;
+    margin-bottom: 2px;
+    border: 1px solid #ECBE5E;
+    box-shadow: 2px 2px 2px white;
+    background-color: #FFD06E;
+}
+.secondrow .box .section > ul li a{
+    float: left;
+    text-decoration: none;
+    color: #7F7154;
+}
+.secondrow .box .section > ul li a:hover{
+    color: #E4A217;
+}
+.secondrow .box .section > ul li a.more:hover{
+    color: #7F7154;
+}
+.secondrow .box .section > ul li a.more{
+    float: right;
+    color: #E4A217;
+}
+.thirdrow{
+    padding: 20px 170px;
+    background-color: #F8F3E9;
+}
+.thirdrow >img{
+    margin-right: 12.5px;
+}
+.fourthrow{
+    background-color: #310000;
+    padding: 0px 170px;
+}
+.fourthrow .box{
+    float: left;
+    width: 25%;
+    position: relative;
+}
+.fourthrow .box >.content{
+    position: absolute;
+    top: 70px;
+    padding: 10px;
+}
+.fourthrow .box >.content h2{
+    font-size: 16px;
+    line-height: 13.3px;
+    letter-spacing: 0px;
+    color: #bffb05;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    margin-bottom: 8px;
+}
+.fourthrow .box >.content  p{
+    margin: 0;
+    color: white;
+    font-size: small;
+}
+.fourthrow .box >.content p a.more{
+    color: #F23400;
+}
+footer{
+    padding: 20px;
+    text-align: center;
+    background-color: #FFAD00;
+    font-size: small;
+}
